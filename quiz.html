@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <title>Quiz</title>
+
+</head>
+
+<body onload="startTime()">
+    <div class="main-section">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="container">
+                <div class="jumbotron" style="padding: 0px; margin: 0px;">
+                    <div class="full-section">
+
+                        <div class="left-section-quiz">
+                            <div class=" d-flex justify-content-center align-items-center h-100">
+                                <img class="icon-quiz" src="./assets/undraw_exams_g4ow.svg" />
+                            </div>
+
+
+                        </div>
+
+                        <div class="right-section-quiz">
+                            <div class="top-section-quiz">
+                                <div class="top-left-quiz">
+                                    <div class="d-flex">
+                                        <div class="question-top">
+                                            <p class="question-no">4</p>
+                                        </div>
+                                        <div class="question-q">
+                                            <p class="question-tag">Question</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="top-right-quiz">
+                                    <h1 class="time" id="demo"></h1>
+                                </div>
+                            </div>
+
+
+                            <div class="form-quiz">
+                                <form>
+                                    <div>
+                                        <h1 class="title">What is your name ?</h1>
+                                    </div>
+                                    <div class="form-group pt-3">
+
+                                        <input type="text" class="form-control" required placeholder="Enter Your Name">
+
+                                    </div>
+
+
+                                    <div class="top-section-quiz">
+                                        <div class="top-left-quiz">
+
+                                            <button class="button-quiz">Submit</button>
+
+                                        </div>
+                                        <div class="top-right-quiz">
+                                            <p class="total-quiz">Total Question 20</p>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- <button type="submit" class="btn btn-primary">Join</button> -->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Nov 13, 2020 10:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            // var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = hours + ":"
+                + minutes + ":" + seconds;
+
+            // If the count down is over, write some text
+            if (distance < 0) { clearInterval(x); document.getElementById("demo").innerHTML = "EXPIRED"; }
+        }, 1000); </script>
+
+</body>
+
+</html>
