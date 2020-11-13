@@ -19,15 +19,12 @@
             <div class="jumbotron-quiz">
                 <div class="full-section">
                     <div class="left-section-quiz">
-
                         <div>
                             <p class="student-name">Name: Sarfaroj Gayen</p>
                         </div>
-
                         <div class="d-flex justify-content-center">
                             <img class="icon-quiz" src="./assets/clock.svg" />
                         </div>
-
                     </div>
 
                     <div class="right-section-quiz">
@@ -51,16 +48,46 @@
 
 
 
-                        <div class="form-quiz">
+
+
+                        <div class="mt-4">
                             <form>
                                 <div>
-                                    <h1 class="questions-quiz">What is india capital name ? </h1>
+                                    <h1 class="questions-quiz">We consider this an evolution of an Essay question with
+                                        RecordRTC buttons available to students.</h1>
                                 </div>
-                                <div class="form-group pt-3">
-                                    <input type="text" class="form-control" required placeholder="Type your answer">
+                                <div class="palyer">
+                                    <audio preload="none" style="background-color: #e8ecf0;" controls
+                                        controlsList="nodownload">
+                                        <source
+                                            src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
+                                            type="audio/mp3">
+                                    </audio>
+                                </div>
 
+                                <div class="form-group mt-3">
+                                    <div class="answer-section">
+                                        <label class="radio-quiz">
+                                            Kolkata
+                                            <input type="radio" checked="checked" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-quiz">New Delhi
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-quiz">Mumbai
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-quiz">Pune
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <hr />
                                 </div>
-                                <hr style="margin-top: 70px;" />
+
                                 <div class="quiz-lest-section">
 
                                     <div class="top-section-quiz">
@@ -88,7 +115,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Nov 16, 2020 10:00:00").getTime();
+        var countDownDate = new Date("Nov 18, 2020 10:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {

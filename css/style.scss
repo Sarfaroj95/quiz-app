@@ -1,8 +1,11 @@
 $primary:  #138BE4;
 $secondary: #11BCF2;
 $lightblack:#464353;
-$white: #ffffff;
-$lightbg: #e3f1fc ;
+$white:#ffffff;
+$lightbg: #e8ecf0 ;
+$shadow : #cbd3df;
+
+
 
 
 
@@ -28,7 +31,7 @@ $lightbg: #e3f1fc ;
     padding: 0px; 
     margin: 0px;
     border-radius: 6px;
-    background-color: $lightblack !important;
+   box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
 }
 
 .full-section{
@@ -128,18 +131,20 @@ font-weight: 600;
 .left-section-quiz{
     width: 30%;
     // height: 100%;
-    background-color: $lightbg !important;
+    background-color: $white !important;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
+   
 }
+
 
 
 
 
 .right-section-quiz{
     width: 70%;
-    padding: 40px;
-    background-color: $white !important;
+    padding: 30px;
+    background-color: $lightbg !important;
      border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     position: relative;
@@ -182,8 +187,8 @@ font-weight: 600;
     font-weight: 400;
 }
 .questions-quiz{
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     color: $primary !important;
 }
 .answer-section{
@@ -192,7 +197,7 @@ font-weight: 600;
     padding-top: 20px;
 }
 .form-quiz{
-   margin-top: 100px;
+   margin-top: 70px;
 }
 
 .total-quiz{
@@ -210,13 +215,16 @@ font-weight: 600;
 }
 .button-quiz{
   margin-top: 10px;
-  border: 1px solid $primary !important;
+//   border: 1px solid $primary !important;
   border-radius: 3px;
   padding: 8px 22px;
   display: inline-block;
-  background-color: $white !important;
+  background-color: $primary !important;
   color: $primary !important;
   font-weight: 600;
+  color: $white !important;
+  outline: none;
+  
 }
 
 .radio-quiz {
@@ -225,11 +233,12 @@ font-weight: 600;
   padding-left: 35px;
   margin-bottom: 20px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: $lightblack !important;
 }
 
 /* Hide the browser's default radio button */
@@ -287,9 +296,40 @@ font-weight: 600;
 
 .quiz-lest-section{
      position: absolute;
-  bottom: 30px;
-  left: 40px;
+  bottom: 20px;
+  left: 30px;
 }
+
+
+
+// audio Section
+.palyer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;;
+}
+audio::-webkit-media-controls-panel{
+background-color: $lightbg !important;
+width:350px;
+ 
+
+}
+
+audio{
+    background-color: $lightbg;
+    border-radius: 8px;
+    box-shadow: 5px 5px 11px $shadow, -5px -5px 11px #fff;
+}
+.audio{
+    box-shadow: 5px 5px 11px $shadow, -5px -5px 11px #fff;
+    border-radius: 0px !important;;
+}
+
+
+
+// music
+
 
 
 // Mobile view
@@ -303,18 +343,19 @@ font-weight: 600;
    background-size: cover;
 }
 
-
-
 .jumbotron{
     border-radius: 6px;
     background-color: $white !important;
-   
 }
 
 
 .left-section{
      width: 100%;
      padding: 20px;
+    position: absolute;
+    padding: 16px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 .right-section{
@@ -371,12 +412,9 @@ font-weight: 600;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
-
-
-
-   
-
+  
 }
+
 
 .right-section-quiz{
     width: 100%;
@@ -401,7 +439,7 @@ font-weight: 600;
 }
 
 .questions-quiz{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: $primary !important;
 }
