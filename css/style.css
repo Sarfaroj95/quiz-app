@@ -92,6 +92,10 @@
   border-bottom: 1px solid #138BE4 !important;
 }
 
+.subject-bg {
+  background-color: #e8ecf0 !important;
+}
+
 .button {
   margin-top: 10px;
   border: 1px solid #138BE4 !important;
