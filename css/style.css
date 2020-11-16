@@ -12,7 +12,7 @@
 }
 
 .jumbotron-quiz {
-  height: 95%;
+  height: 90%;
   width: 95%;
   border-radius: 6px;
   -webkit-box-shadow: 0px 9px 35px -19px rgba(0, 0, 0, 0.75);
@@ -176,7 +176,7 @@
 }
 
 .questions-quiz {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #138BE4 !important;
 }
@@ -185,9 +185,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-top: 20px;
 }
 
@@ -325,7 +324,7 @@ audio {
 
 @media only screen and (max-width: 500px) {
   .main-section {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: linear-gradient(40deg, #11BCF2 70%, #138BE4 30%);
   }
@@ -358,8 +357,10 @@ audio {
     color: #138BE4 !important;
   }
   .jumbotron-quiz {
-    height: 95%;
-    width: 90%;
+    height: 100%;
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 6px;
     background-color: #464353 !important;
   }
@@ -395,8 +396,12 @@ audio {
     margin-top: 30px;
   }
   .answer-section {
-    display: block;
-    padding-top: 6px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 20px;
   }
   .questions-quiz {
     font-size: 16px;
