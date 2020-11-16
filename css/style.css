@@ -207,7 +207,7 @@
 }
 
 .btn-quiz-section {
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
 .button-quiz {
@@ -384,7 +384,7 @@ audio {
   }
   .left-section-quiz {
     width: 100%;
-    background-color: #e8ecf0 !important;
+    background-color: #ffffff !important;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 6px;
