@@ -254,7 +254,6 @@
 
 /* Hide the browser's default radio button */
 .radio-quiz input {
-  position: absolute;
   opacity: 0;
   cursor: pointer;
 }
@@ -307,7 +306,6 @@
 }
 
 .quiz-lest-section {
-  position: absolute;
   bottom: 20px;
   left: 30px;
   width: 100%;
@@ -355,7 +353,6 @@ audio {
   .left-section {
     width: 100%;
     padding: 20px;
-    position: absolute;
     padding: 16px;
     width: 300px;
     border-radius: 8px;
