@@ -440,6 +440,10 @@ audio {
     font-weight: 600;
     padding-top: 15px;
   }
+  .btn-quiz-section {
+    padding-top: 0.4%;
+    text-align: center;
+  }
   .icon-quiz {
     height: 120px;
     width: auto;
