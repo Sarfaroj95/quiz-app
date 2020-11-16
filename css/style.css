@@ -17,7 +17,6 @@
   border-radius: 6px;
   -webkit-box-shadow: 0px 9px 35px -19px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 9px 35px -19px rgba(0, 0, 0, 0.75);
-  background-color: #464353;
 }
 
 .full-section {
@@ -208,6 +207,7 @@
 }
 
 .button-quiz {
+  margin-top: 10%;
   outline: none !important;
   border: none !important;
   border-radius: 3px;
@@ -218,6 +218,10 @@
   font-weight: 600;
   color: #ffffff !important;
   outline: none;
+}
+
+.audio-title {
+  color: #464353;
 }
 
 .radio-quiz {
