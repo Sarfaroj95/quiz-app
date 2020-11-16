@@ -208,6 +208,8 @@
 }
 
 .button-quiz {
+  outline: none !important;
+  border: none !important;
   border-radius: 3px;
   padding: 8px 22px;
   display: inline-block;
@@ -362,7 +364,6 @@ audio {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 6px;
-    background-color: #464353 !important;
   }
   .form-section {
     width: 100%;

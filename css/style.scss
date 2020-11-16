@@ -23,13 +23,11 @@ $shadow : #cbd3df;
 }
 
 .jumbotron-quiz{
-   
   height: 90%;
   width: 95%;
-  
-    border-radius: 6px;
-   box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
-   background-color: $lightblack;
+  border-radius: 6px;
+  box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
+  background-color: $lightblack;
 }
 
 .full-section{
@@ -211,6 +209,8 @@ $shadow : #cbd3df;
 .button-quiz{
   
 //   border: 1px solid $primary !important;
+outline: none !important;
+border: none !important;
   border-radius: 3px;
   padding: 8px 22px;
   display: inline-block;
@@ -377,10 +377,7 @@ audio{
     width: 95%;
     padding-top: 20px;
     padding-bottom: 20px;
-
-  
     border-radius: 6px;
-    background-color: $lightblack !important;
 }
 
 // .time{
