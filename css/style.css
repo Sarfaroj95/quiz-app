@@ -206,8 +206,11 @@
   margin-top: 50px;
 }
 
+.btn-quiz-section {
+  padding-top: 6%;
+}
+
 .button-quiz {
-  margin-top: 10%;
   outline: none !important;
   border: none !important;
   border-radius: 3px;
