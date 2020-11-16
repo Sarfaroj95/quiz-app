@@ -216,7 +216,7 @@ $shadow : #cbd3df;
 outline: none !important;
 border: none !important;
   border-radius: 3px;
-  padding: 14px 35px;
+  padding: 13px 35px;
   display: inline-block;
   background-color: $primary !important;
   color: $primary !important;
@@ -224,6 +224,12 @@ border: none !important;
   color: $white !important;
   outline: none;
   
+}
+.button-quiz:hover{
+    background-color: $white !important;
+    border: 1px solid $primary !important;
+    color: $primary !important;
+    
 }
 .audio-section-question{
     margin-top: 30px;
