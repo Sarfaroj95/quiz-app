@@ -12,26 +12,24 @@ $shadow : #cbd3df;
 .main-section {
    height: 100vh;
    width: 100%;
-  background: linear-gradient(40deg,  $secondary 70%, 	$primary 30% );
-
+   background: linear-gradient(40deg,  $secondary 70%, 	$primary 30% );
 }   
-
-
 
 .jumbotron{
     border-radius: 6px;
     background-color: $white !important ;
-  box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
    
 }
 
 .jumbotron-quiz{
-    height: 80%;
-    width: 90%;
-    padding: 0px; 
-    margin: 0px;
+   
+  height: 95%;
+  width: 95%;
+  
     border-radius: 6px;
    box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
+   background-color: $lightblack;
 }
 
 .full-section{
@@ -118,7 +116,7 @@ $shadow : #cbd3df;
   background-position: right bottom;
   transition: all .5s ease-out;
   color: $primary !important;
-font-weight: 600;
+  font-weight: 600;
 }
 
 .button:hover {
@@ -140,10 +138,6 @@ font-weight: 600;
    
 }
 
-
-
-
-
 .right-section-quiz{
     width: 70%;
     padding: 30px;
@@ -152,8 +146,6 @@ font-weight: 600;
     border-bottom-right-radius: 6px;
     position: relative;
    
-
-    
 }
 .top-section-quiz{
      display: flex;
@@ -341,9 +333,9 @@ audio{
 .main-section {
    height: 100vh;
    width: 100%;
-   background: url(../assets/bg.png);
-   background-repeat: no-repeat;
-   background-size: cover;
+  background: linear-gradient(40deg,  $secondary 70%, 	$primary 30% );
+
+  
 }
 
 .jumbotron{
@@ -382,8 +374,7 @@ audio{
 .jumbotron-quiz{
     height: 95%;
     width: 90%;
-    padding: 0px; 
-    margin: 0px;
+  
     border-radius: 6px;
     background-color: $lightblack !important;
 }
@@ -404,6 +395,7 @@ audio{
 }
  .full-section{
     display: block;
+   
    
 }
 
